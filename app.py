@@ -3,6 +3,7 @@ from utils.pdf_parser import extract_text
 from utils.text_cleaner import clean_text
 from utils.skill_extractor import extract_skills
 from utils.resume_score import calculate_score
+from utils.contact_extractor import extract_contact_info
 
 # ------------------------------
 # Title
@@ -60,3 +61,10 @@ if uploaded_file is not None:
     st.progress(score / 100)
 
     st.success(f"Resume Score : {score}/100")
+
+
+    contact = extract_contact_info(cleaned_text)
+
+    st.subheader("Contact Information")
+
+    st.write(contact)
