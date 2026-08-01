@@ -27,7 +27,7 @@ An end-to-end resume parsing and analysis tool built with **Python** and **Strea
 | UI / App Framework | [Streamlit](https://streamlit.io/) |
 | PDF Parsing | Python (`pdfplumber` / `PyPDF2`) |
 | Text Processing | `re` (Regular Expressions) |
-| AI Review (Phase 12) | [Anthropic API](https://docs.claude.com/) (Claude) |
+| AI Review (Phase 12) | 
 | Language | Python 3.10+ |
 
 ---
