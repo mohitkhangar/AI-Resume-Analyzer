@@ -96,7 +96,7 @@ Each extractor module is independent and testable on its own — they all take c
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/Resume-Analyzer-Project.git
+git clone https://github.com/<github.com/mohitkhangar>/Resume-Analyzer-Project.git
 cd "Resume Analyzer Project"
 ```
 
